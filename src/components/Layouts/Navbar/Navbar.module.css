@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 2em;
+    margin: 0 2rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar img {
+    height: 5em;
+}
+
+.links {
+    cursor: pointer;
+    border-bottom: 3px solid #FF0000;
+    padding: 0.5em;
+    transition: 0.5s;
+}
+
+.links:hover {
+    border-bottom: 3px solid #000;
+    transition: 0.5s;
+}
